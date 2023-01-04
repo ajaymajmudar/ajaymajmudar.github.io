@@ -23,7 +23,7 @@ const greeting = {
   username: "Ajay Majmudar",
   title: "Hi, I'm Ajay",
   subTitle: emoji(
-    "I am a M.S. Analytics student at Georgia Tech 🐝 and an aspiring Data Scientist! \nScroll to find out more about me and my work!"
+    "I am a M.S. Analytics student at Georgia Tech 🐝 and an aspiring Data Scientist! \nScroll to find out more about my work!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/10Z2_7AYFktDQA2Xvilr4lKAvLcSbM-_g/view?usp=sharing", // Set to empty to hide the button
@@ -194,7 +194,7 @@ const workExperiences = {
       company: "Aflac",
       companylogo: require("./assets/images/aflac.jpg"),
       date: "June 2022 - August 2022",
-      desc: "Executed a data science project forecasting future staffing levels for 5 different business units utilzing supervised machine learning models",
+      desc: "Executed a data science project forecasting future staffing levels for 5 different business units utilizing supervised machine learning models",
       descBullets: []
     },
     {
