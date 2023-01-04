@@ -4,6 +4,8 @@ import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
@@ -11,8 +13,9 @@ export default function StackProgress() {
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
-            {techStack.experience.map((exp, i) => {
+            <h1 className="skills-heading">Skills</h1>
+            <SoftwareSkill />
+            {/* {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage
               };
@@ -24,7 +27,7 @@ export default function StackProgress() {
                   </div>
                 </div>
               );
-            })}
+            })} */}
           </div>
 
           <div className="skills-image">
