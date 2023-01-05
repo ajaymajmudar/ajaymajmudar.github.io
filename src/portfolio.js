@@ -2,6 +2,9 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
+// RUN BELOW BEFORE DEPLOYING 
+//export NODE_OPTIONS=--openssl-legacy-provider
+
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -108,7 +111,7 @@ softwareSkills: [
 
   {
     skillName: "PySpark",
-    fontAwesomeClassname: "fas fa-sparkles"
+    fontAwesomeClassname: "fab fa-python"
   },
   
   {
