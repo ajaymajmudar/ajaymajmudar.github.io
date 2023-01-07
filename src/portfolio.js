@@ -62,7 +62,7 @@ const skillsSection = {
     ),
     emoji("✅ I graduated from Georgia Tech with a B.S. in Industrial Engineering ⚙️ and have a passion for data science 📊."),
     emoji(
-      "✅ Currently, looking to expand my data science skillset 🧰 and work on cool projects 👨‍💻."
+      "✅ Currently, looking to expand my data science skillset 🧰 and apply data-driven solutions 👨‍💻."
     ),
     emoji(
       "✅ In my free time, I enjoy watching sports 🏀🏈⚾️⚽️ , cooking 🧑🏽‍🍳, and traveling ✈️."
@@ -159,20 +159,19 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  display: false,
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Pandas / Numpy / Scikit-Learn", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Machine Learning and Statistical Modeling",
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -190,15 +189,21 @@ const workExperiences = {
       date: "August 2022 - Present",
       desc:
        "GTA for ISYE 6644 Simulation and Modeling for Engineers",
-      descBullets: []
+      descBullets: [
+        "Graded assignments and hosted office hours for online section of 500+ students",
+        "Answered questions on online forum"
+      ]
     },
     {
       role: "Group Analytics Intern",
       company: "Aflac",
       companylogo: require("./assets/images/aflac.jpg"),
       date: "June 2022 - August 2022",
-      desc: "Executed a data science project forecasting future staffing levels for 5 different business units utilizing supervised machine learning models",
-      descBullets: []
+      desc: "",
+      descBullets: [
+        "Executed a data science project forecasting future staffing levels for 5 different business units", 
+        "Utilized supervised machine learning models improving accuracy by 8.7%"
+      ]
     },
     {
       role: "Undergraduate Teaching Assistant",
@@ -207,34 +212,42 @@ const workExperiences = {
       date: "June 2021 - May 2022",
       desc:
       "UTA for ISYE 3044 Simulation Analysis & ISYE 3103 Supply Chain Modeling",
-      descBullets: []
+      descBullets: [
+        "Graded assignments and hosted office hours",
+        "Assisted professor with test creation"
+      ]
     },
     {
       role: "Supply Chain Analytics Intern",
       company: "NCR Corporation",
       companylogo: require("./assets/images/ncr.png"),
       date: "May 2021 - August 2021",
-      desc:
-        "Implemented an analytics project to recreate a complex inventory input/output model using Tableau and SQL. Additionally, I oversaw planning aspects of 200 inventory parts through forecasting methods to increase fulfillment levels by 10%",
-      descBullets: []
+      desc:"",
+      descBullets: [
+        "Implemented an analytics project to recreate a complex inventory input/output model using Tableau and SQL",
+         "Oversaw planning aspects of 200 inventory parts through forecasting methods to increase fulfillment levels by 10%",
+      ]
     },
     {
       role: "Hardware Operations Intern",
       company: "NCR Corporation",
       companylogo: require("./assets/images/ncr.png"),
       date: "June 2020 - August 2020",
-      desc:
-      "Overhauled team operations improving team efficiency by 7% through creation of an automated inventory tracking tool in Excel, conducted revenue analysis, and produced fulfillment visualizations in Tableau",
-      descBullets: []
+      desc:"",
+      descBullets: [
+        "Overhauled team operations improving team efficiency by 7% through creation of an automated inventory tracking tool in Excel",
+        "Conducted revenue analysis and produced fulfillment visualizations in Tableau",
+      ]
     },
     {
       role: "Customer Success Intern",
       company: "NCR Corporation",
       companylogo: require("./assets/images/ncr.png"),
       date: "May 2019 – August 2019",
-      desc:
+      desc:"",
+      descBullets: [
         "Integrated a standard operating procedure for team analysts and orchestrated data entry for 200 clients",
-      descBullets: []
+      ]
     },
   ]
 };
