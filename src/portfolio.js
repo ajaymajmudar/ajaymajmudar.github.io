@@ -29,7 +29,7 @@ const greeting = {
     "I am a M.S. Analytics student at Georgia Tech 🐝 and an aspiring Data Scientist! \nScroll to find out more about my work!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10Z2_7AYFktDQA2Xvilr4lKAvLcSbM-_g/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17F0E-tntLeA8podRIlkNfJJCFaRyJeyJ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
