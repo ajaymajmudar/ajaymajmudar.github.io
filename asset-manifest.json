@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2e28849c.chunk.css",
-    "main.js": "/static/js/main.21183065.chunk.js",
-    "main.js.map": "/static/js/main.21183065.chunk.js.map",
+    "main.js": "/static/js/main.f02b6f4c.chunk.js",
+    "main.js.map": "/static/js/main.f02b6f4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d5eb1fe9.js",
     "runtime-main.js.map": "/static/js/runtime-main.d5eb1fe9.js.map",
-    "static/js/2.0bddf2ee.chunk.js": "/static/js/2.0bddf2ee.chunk.js",
-    "static/js/2.0bddf2ee.chunk.js.map": "/static/js/2.0bddf2ee.chunk.js.map",
+    "static/js/2.d74221e5.chunk.js": "/static/js/2.d74221e5.chunk.js",
+    "static/js/2.d74221e5.chunk.js.map": "/static/js/2.d74221e5.chunk.js.map",
     "static/css/3.188e9631.chunk.css": "/static/css/3.188e9631.chunk.css",
     "static/js/3.8ae88bc4.chunk.js": "/static/js/3.8ae88bc4.chunk.js",
     "static/js/3.8ae88bc4.chunk.js.map": "/static/js/3.8ae88bc4.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.a4036daf.chunk.js": "/static/js/4.a4036daf.chunk.js",
     "static/js/4.a4036daf.chunk.js.map": "/static/js/4.a4036daf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5697fb3efa7409478aa510b2082df754.js": "/precache-manifest.5697fb3efa7409478aa510b2082df754.js",
+    "precache-manifest.d982f2d8486c4dc6d493b7979db5699d.js": "/precache-manifest.d982f2d8486c4dc6d493b7979db5699d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.188e9631.chunk.css.map": "/static/css/3.188e9631.chunk.css.map",
     "static/css/4.c4782395.chunk.css.map": "/static/css/4.c4782395.chunk.css.map",
     "static/css/main.2e28849c.chunk.css.map": "/static/css/main.2e28849c.chunk.css.map",
-    "static/js/2.0bddf2ee.chunk.js.LICENSE.txt": "/static/js/2.0bddf2ee.chunk.js.LICENSE.txt",
+    "static/js/2.d74221e5.chunk.js.LICENSE.txt": "/static/js/2.d74221e5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/aflac.jpg": "/static/media/aflac.6ff4561c.jpg",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d5eb1fe9.js",
-    "static/js/2.0bddf2ee.chunk.js",
+    "static/js/2.d74221e5.chunk.js",
     "static/css/main.2e28849c.chunk.css",
-    "static/js/main.21183065.chunk.js"
+    "static/js/main.f02b6f4c.chunk.js"
   ]
 }
