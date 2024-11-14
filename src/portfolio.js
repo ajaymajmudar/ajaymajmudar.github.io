@@ -4,10 +4,13 @@
 
 // RUN BELOW BEFORE DEPLOYING 
 //export NODE_OPTIONS=--openssl-legacy-provider
+//npm run build
+//npm run deploy
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import React from 'react';
+import coxLogo from './assets/images/coxlogo.png'; // Import the logo image
 // Splash Screen
 
 const splashScreen = {
@@ -25,8 +28,17 @@ const illustration = {
 const greeting = {
   username: "Ajay Majmudar",
   title: "Hi, I'm Ajay",
-  subTitle: emoji(
-    "I am a M.S. Analytics student at Georgia Tech 🐝 and an aspiring Data Scientist! \nScroll to find out more about my work!"
+  subTitle: (
+    <>
+      I am a Data Scientist at Cox Communications
+      <img
+        src={coxLogo}
+        alt="Cox Logo"
+        style={{ width: '100px', height: '100px', verticalAlign: 'middle', marginLeft: '5px' }}
+      />
+      <br />
+      Scroll to find out more about my experiences!
+    </>
   ),
   resumeLink:
     "https://drive.google.com/file/d/17F0E-tntLeA8podRIlkNfJJCFaRyJeyJ/view?usp=sharing", // Set to empty to hide the button
@@ -38,7 +50,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ajaymajmudar",
   linkedin: "https://www.linkedin.com/in/ajaymajmudar/",
-  gmail: "ajaymajmudar@gatech.edu",
+  gmail: "ajaymajmudar@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -58,14 +70,14 @@ const skillsSection = {
   //subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "✅ I'm a Master's in Analytics student at Georgia Tech graduating in May 2023 🎓!"
+      "✅ I'm currently a Data Scientist at Cox Communications!"
     ),
-    emoji("✅ I graduated from Georgia Tech with a B.S. in Industrial Engineering ⚙️ and have a passion for data science 📊."),
+    emoji("✅ I graduated from Georgia Tech with a M.S. in Analytics/Data Science 📊."),
     emoji(
       "✅ Currently, looking to expand my data science skillset 🧰 and apply data-driven solutions 👨‍💻."
     ),
     emoji(
-      "✅ In my free time, I enjoy watching sports 🏀🏈⚾️⚽️ , cooking 🧑🏽‍🍳, and traveling ✈️."
+      "✅ In my free time, I enjoy watching sports 🏀🏈⚾️⚽️ , playing pickleball 🥒, cooking 🧑🏽‍🍳, and traveling ✈️."
     )
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -97,8 +109,8 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-git-alt"
   },
   {
-    skillName: "Simio",
-    fontAwesomeClassname: "fas fa-desktop"
+    skillName: "JIRA",
+    fontAwesomeClassname: "fab fa-jira"
   },
   {
     skillName: "D3.js",
@@ -182,11 +194,22 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+
+    {
+      role: "Data Scientist II",
+      company: "Cox Communications",
+      companylogo: require("./assets/images/coxwide.png"),
+      date: "May 2023 - Present",
+      desc: "",
+      descBullets: [
+        "More info coming soon :)"
+      ]
+    },
     {
       role: "Graduate Teaching Assistant",
       company: "Georgia Tech College of Engineering",
       companylogo: require("./assets/images/gt-coe.png"),
-      date: "August 2022 - Present",
+      date: "August 2022 - August 2023",
       desc:
        "GTA for ISYE 6644 Simulation and Modeling for Engineers",
       descBullets: [
@@ -195,7 +218,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Group Analytics Intern",
+      role: "Data Science Intern",
       company: "Aflac",
       companylogo: require("./assets/images/aflac.jpg"),
       date: "June 2022 - August 2022",
@@ -415,7 +438,7 @@ const contactInfo = {
   subtitle:
     "",
   number: "",
-  email_address: "ajaymajmudar@gatech.edu"
+  email_address: "ajaymajmudar@gmail.com"
 };
 
 // Twitter Section
