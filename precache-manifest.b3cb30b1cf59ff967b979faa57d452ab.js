@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "917aa8b0dd5da1d989f6273e7534c39f",
+    "revision": "805285bd6128a3280dda820e8eff03f7",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.c4782395.chunk.css"
   },
   {
-    "revision": "8e59b4c2b92d7021d32f",
+    "revision": "c5578dc4049842708eca",
     "url": "/static/css/main.2e28849c.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.a4036daf.chunk.js"
   },
   {
-    "revision": "8e59b4c2b92d7021d32f",
-    "url": "/static/js/main.f02b6f4c.chunk.js"
+    "revision": "c5578dc4049842708eca",
+    "url": "/static/js/main.49b2d62c.chunk.js"
   },
   {
     "revision": "6aa9b876a478062bc9b4",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "/static/media/contactMailDark.51cf7192.svg"
+  },
+  {
+    "revision": "1b0a0d08e6ec04f98ba8b000d08e30b7",
+    "url": "/static/media/coxlogo.1b0a0d08.png"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
