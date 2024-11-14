@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c631389023a3d3b31b4bb714ea8f043d",
+    "revision": "0dd56c4a752032a36a608614a63728a9",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.c4782395.chunk.css"
   },
   {
-    "revision": "9d3bce3c7283559855ba",
+    "revision": "2b85d1ea78c00f2b04c3",
     "url": "/static/css/main.2e28849c.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.91f70bd1.chunk.js"
   },
   {
-    "revision": "9d3bce3c7283559855ba",
-    "url": "/static/js/main.6e2fd33f.chunk.js"
+    "revision": "2b85d1ea78c00f2b04c3",
+    "url": "/static/js/main.2cbd7e4d.chunk.js"
   },
   {
     "revision": "32ad7fa40dc01c96988c",
@@ -62,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b0a0d08e6ec04f98ba8b000d08e30b7",
     "url": "/static/media/coxlogo.1b0a0d08.png"
-  },
-  {
-    "revision": "1b5c72a853e61e2fa3a6993b33f65a72",
-    "url": "/static/media/coxwide.1b5c72a8.png"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
