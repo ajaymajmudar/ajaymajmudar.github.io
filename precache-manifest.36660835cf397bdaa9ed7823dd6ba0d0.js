@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "805285bd6128a3280dda820e8eff03f7",
+    "revision": "c631389023a3d3b31b4bb714ea8f043d",
     "url": "/index.html"
   },
   {
-    "revision": "67ec8e4a51ebbc0c1ce2",
+    "revision": "03f6e33f47bfce850ab8",
     "url": "/static/css/3.188e9631.chunk.css"
   },
   {
-    "revision": "ad793f2a63fa5cb9ed1b",
+    "revision": "e3c1c14d2ebdf2d97de8",
     "url": "/static/css/4.c4782395.chunk.css"
   },
   {
-    "revision": "c5578dc4049842708eca",
+    "revision": "9d3bce3c7283559855ba",
     "url": "/static/css/main.2e28849c.chunk.css"
   },
   {
-    "revision": "ee17d0ba5ca4a114b184",
-    "url": "/static/js/2.d74221e5.chunk.js"
+    "revision": "6c02600d6d479c8770bb",
+    "url": "/static/js/2.13aed402.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.d74221e5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.13aed402.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "67ec8e4a51ebbc0c1ce2",
-    "url": "/static/js/3.8ae88bc4.chunk.js"
+    "revision": "03f6e33f47bfce850ab8",
+    "url": "/static/js/3.1f3babd3.chunk.js"
   },
   {
-    "revision": "ad793f2a63fa5cb9ed1b",
-    "url": "/static/js/4.a4036daf.chunk.js"
+    "revision": "e3c1c14d2ebdf2d97de8",
+    "url": "/static/js/4.91f70bd1.chunk.js"
   },
   {
-    "revision": "c5578dc4049842708eca",
-    "url": "/static/js/main.49b2d62c.chunk.js"
+    "revision": "9d3bce3c7283559855ba",
+    "url": "/static/js/main.6e2fd33f.chunk.js"
   },
   {
-    "revision": "6aa9b876a478062bc9b4",
-    "url": "/static/js/runtime-main.d5eb1fe9.js"
+    "revision": "32ad7fa40dc01c96988c",
+    "url": "/static/js/runtime-main.568556d7.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1b0a0d08e6ec04f98ba8b000d08e30b7",
     "url": "/static/media/coxlogo.1b0a0d08.png"
+  },
+  {
+    "revision": "1b5c72a853e61e2fa3a6993b33f65a72",
+    "url": "/static/media/coxwide.1b5c72a8.png"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
